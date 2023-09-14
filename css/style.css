@@ -24,11 +24,25 @@
     height: 100vh;
     background-color:var(--color-bg-black) ;
 }
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+}
 .contents{
     color: white;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+.user-window{
+    width: calc(100%/7);
+}
+img{
+    width: 100%;
 }
