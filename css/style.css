@@ -4,3 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Colors Palette */
+:root{
+    --color-bg-black:#000000;
+    --color-white:#ffffff;
+    --color-green-icon:#45b10d;
+    --color-red-text:#dd1e33;
+}
+/* Debug */
+.debug{
+    border: 1px solid blue;
+}
+/* Utilities */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--color-bg-black) ;
+}
